@@ -5,7 +5,7 @@
                 <h3 class="limoking-widget-title">About Us</h3>
                 <div class=clear></div>
                 <div class=textwidget>
-                    <p>Highstar Limo is perfessional limousine service in New York city and surrounding areas</p>
+                    <p>Highstar Limo is professional limousine service in New York city and surrounding areas</p>
                     <p><img src=images/logo.png style="width: 170px;" alt></p>
                 </div>
             </div>
@@ -14,7 +14,7 @@
             <div id=text-9 class="widget widget_text limoking-item limoking-widget">
                 <h3 class="limoking-widget-title">Contact Info</h3>
                 <div class=clear></div>
-                <span class=limoking-space style="margin-top: 10px; display: block;"></span><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> (914)202-0910<span class=clear></span><span class=limoking-space style="margin-top: 10px; display: block;"></span><i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> highstarlimo3@gmail.com
+                <span class=limoking-space style="margin-top: 10px; display: block;"></span><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> (914)202-0910<span class=clear></span><span class=limoking-space style="margin-top: 10px; display: block;"></span><i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> info@highstarlimo.com
                 <span class=limoking-space style="margin-top: 10px; display: block;"></span><i class="limoking-icon fa fa-map-marker" style="vertical-align: middle; color: #fff; font-size: 16px; "></i> Scarsdale NYC<span class=clear></span>
             </div>
         </div>
@@ -41,10 +41,10 @@
         </div>
     </div>
 
-    <div class="whatsapp" id="whatsapp-img" style="display: block;">
+    <!-- <div class="whatsapp" id="whatsapp-img" style="display: block;">
         <a href="https://api.whatsapp.com/send?phone=13477242108" target="_blank">
             <img src="https://www.parklaneproperties.com/userfiles/templates/plp/assets/images/whatsapp.png" alt="whatsapp"></a>
-    </div>
+    </div> -->
 </footer>
 </div>
 <script src='js/jquery/jquery.js'></script>

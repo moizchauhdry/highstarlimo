@@ -1,4 +1,4 @@
-<?php 
+<?php
 // error_reporting(-1);
 // ini_set('display_errors', 'On');
 // set_error_handler("var_dump");
@@ -16,7 +16,7 @@
 //     "Destination Address: ".$_POST['destination']."\n".
 //     "Date Time: ".date('m/d/Y h:i A', strtotime($_POST['datetime']))."\n".
 //     "No. of Passangers: ".$_POST['nop']."\n".
-//     "No. of Lugages: ".$_POST['nol']."\n".
+//     "No. of Luggages: ".$_POST['nol']."\n".
 //     "Vehicle: ".$_POST['vehicle']."\n".
 //     "Plan: ".$_POST['plan']."\n".
 //     "Message: ".$_POST['message']."\n";
@@ -26,7 +26,7 @@
 //     $headers .= "From: ".$from. "\r\n" .
 //     "Reply-To: ".$_POST['email'] . "\r\n" .
 //     "X-Mailer: PHP/" . phpversion();
-    
+
 //     $sent = mail($to,$subject,$message,$headers,"-finfo@highstarlimo.com");
 //     print_r($sent);die();
 //     //die();
@@ -37,34 +37,35 @@
 //     }
 ?>
 
-<?php 
+<?php
 ini_set('display_errors', 1);
 require 'myvendor/autoload.php';
 $sendgrid = new SendGrid("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");
 $email    = new SendGrid\Email();
-$message = "Mr. ".$name . " fill out the reservation form. His details are :" . "\n\n" . 
-    "Name: ".$_POST['name']."<br>".
-    "Email: ".$_POST['email']."<br>".
-    "Phone: ".$_POST['phone']."<br>".
-    "Pick up Address: ".$_POST['pickup']."<br>".
-    "Destination Address: ".$_POST['destination']."<br>".
-    "Date Time: ".date('m/d/Y h:i A', strtotime($_POST['datetime']))."<br>".
-    "No. of Passangers: ".$_POST['nop']."<br>".
-    "No. of Lugages: ".$_POST['nol']."<br>".
-    "Vehicle: ".$_POST['vehicle']."<br>".
-    "Plan: ".$_POST['plan']."<br>".
-    "Message: ".$_POST['message']."<br>";
-     $email->addTo("highstarlimo3@gmail.com")
-      ->setFrom("info@highstarlimo.com")
-      ->setFromName("HighstarLimo Inc.")
-      ->setReplyTo($_POST['email'])
-      ->setSubject("Your Reservation is Confirmed")
-      ->setHtml($message);
-      if ( $sendgrid->send($email)->code == 200 ) {
-	    echo "<script>window.location.assign('thankyou.php?success=true')</script>";
-	  }else{
-	    echo "<script>window.location.assign('reservation.php')</script>";
-	  }
+$message = "Mr. " . $name . " fill out the reservation form. His details are :" . "\n\n" .
+  "Name: " . $_POST['name'] . "<br>" .
+  "Email: " . $_POST['email'] . "<br>" .
+  "Phone: " . $_POST['phone'] . "<br>" .
+  "Pick up Address: " . $_POST['pickup'] . "<br>" .
+  "Destination Address: " . $_POST['destination'] . "<br>" .
+  "Date Time: " . date('m/d/Y h:i A', strtotime($_POST['datetime'])) . "<br>" .
+  "No. of Passangers: " . $_POST['nop'] . "<br>" .
+  "No. of Luggages: " . $_POST['nol'] . "<br>" .
+  "Vehicle: " . $_POST['vehicle'] . "<br>" .
+  "Plan: " . $_POST['plan'] . "<br>" .
+  "Flight Number: " . $_POST['flight_no'] . "<br>" .
+  "Message: " . $_POST['message'] . "<br>";
+$email->addTo("info@highstarlimo.com")
+  ->setFrom("info@highstarlimo.com")
+  ->setFromName("HighstarLimo Inc.")
+  ->setReplyTo($_POST['email'])
+  ->setSubject("Your Reservation is Confirmed")
+  ->setHtml($message);
+if ($sendgrid->send($email)->code == 200) {
+  echo "<script>window.location.assign('thankyou.php?success=true')</script>";
+} else {
+  echo "<script>window.location.assign('reservation.php')</script>";
+}
 // ini_set('display_errors', 1);
 // use PHPMailer\PHPMailer\PHPMailer;
 // use PHPMailer\PHPMailer\Exception;
@@ -105,13 +106,13 @@ $message = "Mr. ".$name . " fill out the reservation form. His details are :" . 
 //     "Destination Address: ".$_POST['destination']."\n".
 //     "Date Time: ".date('m/d/Y h:i A', strtotime($_POST['datetime']))."\n".
 //     "No. of Passangers: ".$_POST['nop']."\n".
-//     "No. of Lugages: ".$_POST['nol']."\n".
+//     "No. of Luggages: ".$_POST['nol']."\n".
 //     "Vehicle: ".$_POST['vehicle']."\n".
 //     "Plan: ".$_POST['plan']."\n".
 //     "Message: ".$_POST['message']."\n";
 // 	$mail->Body = $message;
 // //Add recipient
-// 	$mail->addAddress('highstarlimo3@gmail.com');
+// 	$mail->addAddress('info@highstarlimo.com');
 // //Finally send email
 // 	if ( $mail->send() ) {
 // 	    echo "<script>window.location.assign('thankyou.php?success=true')</script>";
