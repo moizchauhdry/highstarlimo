@@ -1772,3 +1772,41 @@ body .fancybox-skin { background: #f3f3f3; }
       color:black !important;
   }
 }
+
+
+.banner_main {
+    width: 100%;
+    background: url(https://d9hhrg4mnvzow.cloudfront.net/www.limostarny.net/b9abbc1b-screen-shot-2019-02-09-at-11-31-57-am_11hc0t6000000000000028.png);
+    height: 115vh; position: relative; flex-wrap: wrap;
+display: flex;
+align-content: center; padding-top: 10%;
+}
+.banner_main::after { position: absolute; content: ""; background: rgba(35, 35, 35, 0.75); top: 0; left: 0; width: 100%; height: 100%; }
+.banner_main .banner_form { background: #f8a11575; z-index: 111; padding: 20px 25px; width: 100%; position: relative; }
+
+.banner_main .banner_form .field_loop {  width: 100%; float: left; margin-top: 15px; }
+.banner_main .banner_form .field_loop input { width: 100%; border-radius: 0; }
+.banner_main .banner_form .field_loop select.form-select { border: 0; height: 40px; width: 100%; }
+
+
+.banner_contnet { z-index: 111; color: #fff; position: relative; }
+.banner_contnet h2 { color: #fff; font-size: 45px; font-weight: bold; }
+.banner_contnet h3 { color: #fff; font-size: 30px; font-weight: bold; }
+.banner_contnet h5 { color: #fff; margin-top: 45px; }
+
+.banner_contnet ul { list-style: none; margin: 0; }
+
+.banner_contnet ul li{ background: url(https://d9hhrg4mnvzow.cloudfront.net/www.limostarny.net/wtakjf-icon-3_1000000000000000000028.png); padding-left: 27px; background-repeat: no-repeat;ackground-position: left center; margin-bottom: 8px; background-size: 15px; }
+.banner_main .banner_form .btn { margin: 20px auto 0; text-align: center; display: block; background: #232323; color: #fff !important; }
+
+
+.banner_main .banner_form h2 { font-size: 27px; font-weight: bold; color: #fff;}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+	.banner_main{ height: auto; padding-bottom: 40px; }
+	.banner_contnet h2 { font-size: 30px; }
+	.banner_contnet h3 { font-size: 22px; }
+	.banner_contnet h5 { margin-top: 30px; }
+	.banner_contnet ul{ margin-bottom: 30px; }
+}

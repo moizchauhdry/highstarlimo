@@ -13,7 +13,7 @@
 <div class=content-wrapper>
     <div class=limoking-content>
         <div class=with-sidebar-wrapper>
-            <section id=content-section-1>
+            <!---<section id=content-section-1>
                 <div class="limoking-full-size-wrapper gdlr-show-all no-skin" style="padding-bottom: 0px;  background-color: #ffffff; ">
                     <div class="limoking-master-slider-item limoking-slider-item limoking-item" style="margin-bottom: 0px;">
                         <div id=P_MS5c9b6f3967f07 class="master-slider-parent ms-parent-id-1">
@@ -45,7 +45,117 @@
                     <div class=clear></div>
                 </div>
                 <div class=clear></div>
-            </section>
+            </section>--->
+
+            <div class="banner_main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="banner_contnet">
+                                <h2>#1 Limo & Car Service</h2>
+                                <h3>Headquartered in New York</h3>
+                                <h5>Benefits with Limo Star NY:</h5>
+                                <ul>
+                                    <li>All Inclusive Rates</li>
+                                    <li>Cleaned/Sanitized Vehicles</li>
+                                    <li>Professional Chauffeurs</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <form class="quform" action="process.php" method="post" enctype="multipart/form-data">
+                                <div class="banner_form">
+                                    <div class="col-md-12 text-center">
+                                        <h2>INSTANT ONLINE QUOTE</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="name" size="40" placeholder="Name*" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="email" type="text" name="email" size="40" placeholder="Email*" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="phone" size="40" placeholder="Phone*" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="pickup" size="40" placeholder="Pickup*" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="destination" size="40" placeholder="Destination*" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="nop" size="40" placeholder="No.of Passengers*" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="text" name="nol" size="40" placeholder="No.of Luggages*" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <input id="name" type="datetime-local" name="datetime" size="40" placeholder="Date & Time" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <select class="form-select" name="vehicle">
+                                                    <option value="" selected>Select Vehicle</option>
+                                                    <option value="Black Car Service">Black Car Service</option>
+                                                    <option value="Executive SUV Service">Executive SUV Service </option>
+                                                    <option value="Executive Black Car Service">Executive Black Car Service </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="field_loop">
+                                                <select class="form-select" name="plan" id="rsv_plan">
+                                                    <option value="" selected>Select Plan</option>
+                                                    <option value="Airport Pick up">Airport Pick up</option>
+                                                    <option value="Airport Drop off">Airport Drop off</option>
+                                                    <option value="Sight Seeing">Sight Seeing</option>
+                                                    <option value="Nightout">Nightout</option>
+                                                    <option value="Wedding">Wedding</option>
+                                                    <option value="Bachelor Party">Bachelor Party</option>
+                                                    <option value="Others(As Directed)">Others(As Directed)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn" name="submit" value="GET YOUR QUOTE">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <section id=content-section-2>
                 <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin" id=limoking-parallax-wrapper-1 data-bgspeed=0 style="background-image: url('upload/fleet-bg-hp1.jpg'); background-repeat: repeat-x;padding-top: 72px; padding-bottom: 430px; ">
                     <div class=container>
