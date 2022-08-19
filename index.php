@@ -13,7 +13,7 @@
 <div class=content-wrapper>
     <div class=limoking-content>
         <div class=with-sidebar-wrapper>
-            <!---<section id=content-section-1>
+            <!-- -<section id=content-section-1>
                 <div class="limoking-full-size-wrapper gdlr-show-all no-skin" style="padding-bottom: 0px;  background-color: #ffffff; ">
                     <div class="limoking-master-slider-item limoking-slider-item limoking-item" style="margin-bottom: 0px;">
                         <div id=P_MS5c9b6f3967f07 class="master-slider-parent ms-parent-id-1">
@@ -45,16 +45,16 @@
                     <div class=clear></div>
                 </div>
                 <div class=clear></div>
-            </section>--->
+            </section>- -->
 
             <div class="banner_main">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-7">
                             <div class="banner_contnet">
-                                <h2>#1 Limo & Car Service</h2>
-                                <h3>Headquartered in New York</h3>
-                                <h5>Benefits with Limo Star NY:</h5>
+                                <h2>The Best Limos</h2>
+                                <h3>In New York, HIGHSTAR LIMO</h3>
+                                <h5>We Are #1 Limo Services</h5>
                                 <ul>
                                     <li>All Inclusive Rates</li>
                                     <li>Cleaned/Sanitized Vehicles</li>
@@ -415,7 +415,7 @@
                                     <div class="ms-layer  msp-cn-1-2" style data-ease=easeOutQuint data-offset-x=0 data-offset-y=-58 data-origin=mc data-position=normal> Not only taking to night parties, weddings, casinos, birthdays but
                                         <br />we also take you to anywhere you want to go.
                                     </div>
-                                    <div class="ms-layer  msp-cn-1-3" style data-ease=easeOutQuint data-offset-x=0 data-offset-y=24 data-origin=mc data-position=normal> Call Now +1 347-724-2108</div><img class=ms-layer src=plugins/masterslider/public/assets/css/blank.gif data-src=upload/slider-divider.png alt style data-ease=easeOutQuint data-type=image data-offset-x=81 data-offset-y=92 data-origin=mc data-position=normal><img class=ms-layer src=plugins/masterslider/public/assets/css/blank.gif data-src=upload/slider-divider.png alt style data-ease=easeOutQuint data-type=image data-offset-x=-79 data-offset-y=92 data-origin=mc data-position=normal>
+                                    <div class="ms-layer  msp-cn-1-3" style data-ease=easeOutQuint data-offset-x=0 data-offset-y=24 data-origin=mc data-position=normal> Call Now (914)202-0910</div><img class=ms-layer src=plugins/masterslider/public/assets/css/blank.gif data-src=upload/slider-divider.png alt style data-ease=easeOutQuint data-type=image data-offset-x=81 data-offset-y=92 data-origin=mc data-position=normal><img class=ms-layer src=plugins/masterslider/public/assets/css/blank.gif data-src=upload/slider-divider.png alt style data-ease=easeOutQuint data-type=image data-offset-x=-79 data-offset-y=92 data-origin=mc data-position=normal>
                                     <div class="ms-layer  msp-cn-1-6" style data-ease=easeOutQuint data-offset-x=0 data-offset-y=95 data-origin=mc data-position=normal> OR</div><a href=reservation.php target=_self class="ms-layer  msp-cn-2-7 ms-btn ms-btn-round ms-btn-n msp-preset-btn-159" data-ease=easeOutQuint data-type=button data-offset-x=0 data-offset-y=173 data-origin=mc data-position=normal> Book Online</a>
                                 </div>
                             </div>
