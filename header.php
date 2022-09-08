@@ -45,14 +45,38 @@
     </script>
     <!--End of Tawk.to Script-->
 
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '433730018564055');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=433730018564055&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <meta charset=UTF-8>
     <meta name=viewport content="initial-scale=1.0">
+    <?php include('seo.php'); ?>
+
     <link rel=pingback href=xmlrpc.html>
-
-
     <title>Highstar Limousine | Westchester Airport Limo</title>
-
 
     <!-- <link rel=stylesheet href='css/font-1.css' type=text/css media=all>
     <link rel=stylesheet href='css/font-2.css' type=text/css media=all>
@@ -202,9 +226,9 @@
     <!--                            <li class="menu-item  current-menu-item "><a href=/ aria-current=page>Home</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=about-us.php aria-current=page>About</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=fleet-3-columns.php aria-current=page>Fleet</a></li>-->
-    <!--                            <li class="menu-item  current-menu-item "><a href=contact-page.php aria-current=page>Reservation</a></li>-->
+    <!--                            <li class="menu-item  current-menu-item "><a href=contact-us.php aria-current=page>Reservation</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=qoute.php aria-current=page>Request a Qoute</a></li>-->
-    <!--                            <li class="menu-item  current-menu-item "><a href=contact-page.php aria-current=page>Contact Us</a></li>-->
+    <!--                            <li class="menu-item  current-menu-item "><a href=contact-us.php aria-current=page>Contact Us</a></li>-->
 
     <!--                        </ul>-->
     <!--                    </div>-->
@@ -225,9 +249,9 @@
     <!--                            <li class="menu-item  current-menu-item  limoking-normal-menu"><a href=/>Home</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=about-us.php aria-current=page>About</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=fleet-3-columns.php aria-current=page>Fleet</a></li>-->
-    <!--                            <li class="menu-item  current-menu-item "><a href=contact-page.php aria-current=page>Reservation</a></li>-->
+    <!--                            <li class="menu-item  current-menu-item "><a href=contact-us.php aria-current=page>Reservation</a></li>-->
     <!--                            <li class="menu-item  current-menu-item "><a href=qoute.php aria-current=page>Request a Qoute</a></li>-->
-    <!--                            <li class="menu-item  current-menu-item "><a href=contact-page.php aria-current=page>Contact Us</a></li>-->
+    <!--                            <li class="menu-item  current-menu-item "><a href=contact-us.php aria-current=page>Contact Us</a></li>-->
 
     <!--                        </ul>-->
     <!--                        <div class=limoking-menu-search id=limoking-menu-search>-->

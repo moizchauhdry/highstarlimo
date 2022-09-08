@@ -33,7 +33,7 @@
 //         header('Location: thankyou.php?success=true');
 //     // You can also use header('Location: thank_you.php'); to redirect to another page.
 //     }else{
-//         header('Location: contact-page.php');
+//         header('Location: contact-us.php');
 //     }
 ?>
 
