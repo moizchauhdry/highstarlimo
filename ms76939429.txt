@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "highstarlimo.com",
+  "Id": "040e2572-5199-4bc0-8b34-c6ad2ae3e020"
+}
