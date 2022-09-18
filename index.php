@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
 
 <style>
     .request-qoute-btn {
@@ -285,7 +285,7 @@
                                 <div class=stunning-item-content>
                                     <h2 class="stunning-item-title" style=" color:black; ">What about pricing?</h2>
                                     <div class="stunning-item-caption limoking-skin-content" style=" color:black; ">Don’t worry. We provide very nice deals and the most competative price just for you!</div>
-                                </div><a class="stunning-item-button limoking-info-font request-qoute-btn" href=qoute.php>Request a qoute</a>
+                                </div><a class="stunning-item-button limoking-info-font request-qoute-btn" href=reservation.php>Request a qoute</a>
                             </div>
                         </div>
                         <div class=clear></div>

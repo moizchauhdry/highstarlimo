@@ -120,6 +120,8 @@
         }
     </style>
     <meta name="google-site-verification" content="OUknr3twJK09d17IneyWDtbYJn80hQY08ptUHhcz-b4" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body data-rsssl=1 class="home page-template-default page page-id-5702 _masterslider _msp_version_3.2.7 woocommerce-no-js">

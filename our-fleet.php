@@ -1,4 +1,19 @@
 <?php include('header.php'); ?>
+
+<style>
+    @media (max-height: 300x),
+    screen and (orientation: portrait) {
+
+        .limoking-item-title-wrapper.limoking-large .limoking-item-title-caption,
+        .limoking-item-title-wrapper.limoking-large .limoking-item-title-link {
+            display: none;
+        }
+
+        .limoking-item-title-content-icon-divider-wrapper {
+            display: none;
+        }
+    }
+</style>
 <div class=content-wrapper>
     <div class=limoking-content>
         <div class=with-sidebar-wrapper>
@@ -31,21 +46,18 @@
                 <div class="limoking-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 0px; padding-bottom: 0px; ">
                     <div class=container>
                         <div class="car-item-wrapper type-classic-car" data-ajax=#>
-
-
-
-
                             <div class="car-item-holder  limoking-car-column-2">
                                 <div class="limoking-isotope  filter-container" data-type=car data-layout=masonry>
                                     <div class=clear></div>
                                     <div class="four columns class1">
                                         <div class="limoking-item limoking-car-item limoking-classic-car">
                                             <div class="limoking-ux limoking-classic-car-ux">
-                                                <div class=car-thumbnail><img src=images/fleet-1.png alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
+                                                <div class=car-thumbnail><img src=upload/2022/fleet-1.png alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
                                                 <div class=car-classic-content>
                                                     <h3 class="car-title">BLACK CAR SERVICE</h3>
                                                     <div class=limoking-car-info-inner>
-                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>4 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-users"></i><span class=limoking-car-info-value>4 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>3 Bags</span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Black Leather Interior </span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Heated Seats</span></div>
 
@@ -57,11 +69,12 @@
                                     <div class="four columns class2">
                                         <div class="limoking-item limoking-car-item limoking-classic-car">
                                             <div class="limoking-ux limoking-classic-car-ux">
-                                                <div class=car-thumbnail><img src=images/fleet-2.png alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
+                                                <div class=car-thumbnail><img src=upload/2022/fleet-2.png alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
                                                 <div class=car-classic-content>
                                                     <h3 class="car-title">EXECUTIVE SUV SERVICE</h3>
                                                     <div class=limoking-car-info-inner>
-                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>7 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-users"></i><span class=limoking-car-info-value>6 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>5 Bags</span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Black Leather Interior </span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Heated Seats</span></div>
 
@@ -74,11 +87,12 @@
                                     <div class="four columns class3">
                                         <div class="limoking-item limoking-car-item limoking-classic-car">
                                             <div class="limoking-ux limoking-classic-car-ux">
-                                                <div class=car-thumbnail><img src=images/fleet-3.png alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
+                                                <div class=car-thumbnail><img src=upload/2022/fleet-3.jpg alt width=600 height=343><span class=car-overlay>&nbsp;</span><a class=car-overlay-icon href=contact-us.php><span class=car-icon><i class="fa fa-link"></i></span></a></div>
                                                 <div class=car-classic-content>
-                                                    <h3 class="car-title">EXECUTIVE BLACK CAR SERVICE</h3>
+                                                    <h6 class="car-title">EXECUTIVE BLACK CAR SERVICE</h6>
                                                     <div class=limoking-car-info-inner>
-                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>4 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-users"></i><span class=limoking-car-info-value>4 Passengers</span></div>
+                                                        <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>3 Bags</span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Black Leather Interior </span></div>
                                                         <div class=limoking-car-info><i class="limoking-car-info-icon fa fa-car"></i><span class=limoking-car-info-value>Heated Seats</span></div>
 
@@ -98,6 +112,10 @@
                         </div>
                     </div>
                     <div class=clear></div>
+            </section>
+
+            <section id="content-section-3">
+                <img src="upload/new/banner1.jpg" alt="">
             </section>
         </div>
     </div>

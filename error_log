@@ -267,3 +267,13 @@ Stack trace:
 [25-May-2022 19:34:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highstar/public_html/myvendor/sendgrid/sendgrid/lib/SendGrid/Email.php on line 569
 [25-May-2022 19:35:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highstar/public_html/myvendor/sendgrid/sendgrid/lib/SendGrid/Email.php on line 569
 [25-May-2022 19:36:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/highstar/public_html/myvendor/sendgrid/sendgrid/lib/SendGrid/Email.php on line 569
+[26-Aug-2022 12:57:05 UTC] PHP Warning:  include(seo.php): failed to open stream: No such file or directory in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 12:57:05 UTC] PHP Warning:  include(): Failed opening 'seo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 12:57:09 UTC] PHP Warning:  include(seo.php): failed to open stream: No such file or directory in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 12:57:09 UTC] PHP Warning:  include(): Failed opening 'seo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 12:57:16 UTC] PHP Warning:  include(seo.php): failed to open stream: No such file or directory in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 12:57:16 UTC] PHP Warning:  include(): Failed opening 'seo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 13:12:05 UTC] PHP Warning:  include(seo.php): failed to open stream: No such file or directory in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 13:12:05 UTC] PHP Warning:  include(): Failed opening 'seo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 13:12:25 UTC] PHP Warning:  include(seo.php): failed to open stream: No such file or directory in /home/highstar/public_html/header.php on line 48
+[26-Aug-2022 13:12:25 UTC] PHP Warning:  include(): Failed opening 'seo.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/highstar/public_html/header.php on line 48
